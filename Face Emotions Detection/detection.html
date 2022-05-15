@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en" style="overflow: scroll;">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Face Emotions Detection</title>
+  <link href="https://use.fontawesome.com/releases/v6.1.1/css/all.css" rel="stylesheet" />
+  <script defer src="face-api.min.js"></script>
+  <script defer src="script.js"></script>
+  <style>
+    canvas {
+      position: absolute;
+      margin-top: -814px;
+      margin-left: 220px
+    }
+
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+    * {
+      margin: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    .fa-face-smile-wink {
+      font-size: larger;
+    }
+
+    .fa-user-tie {
+      font-size: larger;
+    }
+
+    body {
+      overflow: hidden;
+      background: -webkit-linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E);
+      background: linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E);
+    }
+
+    ::selection {
+      background: rgba(23, 162, 184, 0.3);
+    }
+
+    .videodesign {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .wrapper {
+      /* max-width: 700px; */
+      margin: 8px;
+      margin-bottom: 20px;
+      padding: 20px 30px 30px 20px;
+      border-radius: 15px;
+      background: black;
+      box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
+    }
+
+    .wrapper header {
+      font-size: 30px;
+      font-weight: 600;
+      padding-bottom: 20px;
+    }
+
+    .wrapper nav {
+      position: relative;
+      width: 48%;
+      height: 50px;
+      display: flex;
+      align-items: center;
+    }
+
+    .wrapper nav label {
+      display: block;
+      height: 100%;
+      width: 100%;
+      text-align: center;
+      line-height: 50px;
+      cursor: pointer;
+      position: relative;
+      z-index: 1;
+      color: white;
+      font-size: 20px;
+      border-radius: 5px;
+      margin: 0 20px;
+      transition: all 0.8s ease;
+    }
+
+    .wrapper nav label:hover {
+      background: grey;
+      margin-left: 20px;
+      margin-right: 26px;
+    }
+
+    #recognition:checked~nav label.recognition,
+    #detection:checked~nav label.detection {
+      color: black;
+    }
+
+    nav label i {
+      padding-right: 12px;
+    }
+
+    nav .slider {
+      position: absolute;
+      height: 100%;
+      width: 43%;
+      margin-left: 20px;
+      margin-right: 8px;
+      left: 0;
+      bottom: 0;
+      z-index: 0;
+      border-radius: 6px;
+      background: white;
+      transition: all 0.5s ease;
+    }
+
+    input[type="radio"] {
+      display: none;
+    }
+
+    #detection:checked~nav .slider {
+      left: 50%;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wrapper">
+    <header style="font-size: 40px; color: white; ">Face Recognition Web-Application <small
+        style="font-size: 18px; color: lightgray;"><br><i>&emsp;&emsp;&emsp;~Developed by - <b>Krish
+            Chopra</b>(Microsoft Engage Mentee)</i></small></header>
+    <input type="radio" name="slider" id="recognition">
+    <input type="radio" name="slider" checked id="detection">
+    <nav>
+      <label for="recognition" class="recognition" onclick='location.href="http://127.0.0.1:5000"'><i class="fas fa-user-tie"></i>Face
+        Recognition</label>
+      <label for="detection" class="detection"><i class="fas fa-face-smile-wink"></i>Face Emotions Detection</label>
+      <div class="slider"></div>
+    </nav>
+  </div>
+
+  <div class="videodesign">
+    <video id="video" width="1080px" height="814px" autoplay muted
+      style="border : 8px solid black; overflow:hidden; border-radius: 1em;"></video>
+  </div>
+
+</body>
+
+</html>
