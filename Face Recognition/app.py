@@ -14,8 +14,7 @@ from datetime import datetime
 app = Flask(__name__)
 # run_with_ngrok(app)
 
-checker = False
-path = 'images'
+path = 'Face Recognition\images'
 images = []
 personNames = []
 myList = os.listdir(path)
@@ -23,6 +22,7 @@ for current_img in myList:
     current_Img = cv2.imread(f'{path}/{current_img}')
     images.append(current_Img)
     personNames.append(os.path.splitext(current_img)[0])
+# To display all the names in our local database
 print(personNames)
 
 # Get a reference to webcam #0 (the default one)
@@ -39,7 +39,7 @@ def faceEncodings(images):
 
 # Function to save the attendance for the recognized face
 def attendance(name):
-    with open('markedAttendance.csv', 'r+') as f:
+    with open('Face Recognition\markedAttendance.csv', 'r+') as f:
         myDataList = f.readlines()
         nameList = []
         for line in myDataList:
@@ -92,7 +92,6 @@ def gen_frames():
                 best_match_index = np.argmin(face_distances)
                 if matches[best_match_index]:
                     name = personNames[best_match_index]
-                    checker = True
                     attendance(name)
                     
                 face_names.append(name)
