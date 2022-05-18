@@ -23,11 +23,11 @@ Just open [app.py](https://github.com/KrishChopra22/Facial-Recognition-Engage22/
 
 ## Run it on the browser :
 No need to worry, simply copy the **[link](http://127.0.0.1:5000)** served by your terminal and paste it in the browser.<br>
-<img src="https://user-images.githubusercontent.com/77012237/169085830-7d25e467-5e99-438b-be4a-3c725ebb68ad.png" alt="copy the link" width="400"/><br>
+<img src="https://user-images.githubusercontent.com/77012237/169085830-7d25e467-5e99-438b-be4a-3c725ebb68ad.png" alt="copy the link" width="450"/><br>
 Most probably, the link would be http://127.0.0.1:5000 <br>
 ## Some Glimpse, after running on web :
-<img src="https://user-images.githubusercontent.com/77012237/169086294-e05e57aa-7b7b-49ad-862d-30eaaf847d39.png" alt="paste it in the browser" width="480"/> &nbsp; &nbsp; <img src="https://user-images.githubusercontent.com/77012237/169087205-70943594-706d-402d-bf1e-11f32fe9d894.png" alt="RECOGNIZED" width="480"/>
-<p align="center"><img src="https://user-images.githubusercontent.com/77012237/169089231-f1739a66-a835-4ab7-99de-88c1998c03c3.png" alt="Attendance Sheet" width="500"/></p>
+<img src="https://user-images.githubusercontent.com/77012237/169086294-e05e57aa-7b7b-49ad-862d-30eaaf847d39.png" alt="paste it in the browser" width="400"/> &nbsp; &nbsp; <img src="https://user-images.githubusercontent.com/77012237/169087205-70943594-706d-402d-bf1e-11f32fe9d894.png" alt="RECOGNIZED" width="400"/>
+<p align="center"><img src="https://user-images.githubusercontent.com/77012237/169089231-f1739a66-a835-4ab7-99de-88c1998c03c3.png" alt="Attendance Sheet" width="400"/></p>
 
 ### Now let's go to **Face Emotions Detection** page -
 <img src="https://user-images.githubusercontent.com/77012237/169092346-bedbf83f-c347-43e8-bf90-904ca8996a2f.png" alt="Face Emotions Detection Page" width="500"/>
