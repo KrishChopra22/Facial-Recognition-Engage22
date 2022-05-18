@@ -36,6 +36,8 @@ Most probably, the link would be http://127.0.0.1:5000 <br>
 **Click on the Terminal & simply press `Ctrl+C`** *(as shown below)*<br><br> <img src="https://user-images.githubusercontent.com/77012237/169136073-8beec9ec-3d18-4b4b-bd79-e2b25bdd65be.png" alt="Quit the Server" width="500"/>
 
 ### Reload the page & there you go 🥳🚀
+<img src="" alt="Neutral Krish" width="500"/> &nbsp; &nbsp; <img src="https://user-images.githubusercontent.com/77012237/169140206-0df283b7-83b2-40b3-ba0f-e529afc40988.png" alt="Happy Krish" width="500"/>
+
 
 
 
