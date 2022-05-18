@@ -36,8 +36,10 @@ Most probably, the link would be http://127.0.0.1:5000 <br>
 **Click on the Terminal & simply press `Ctrl+C`** *(as shown below)*<br><br> <img src="https://user-images.githubusercontent.com/77012237/169136073-8beec9ec-3d18-4b4b-bd79-e2b25bdd65be.png" alt="Quit the Server" width="500"/>
 
 ### Reload the page & there you go 🥳🚀
-<img src="" alt="Neutral Krish" width="500"/> &nbsp; &nbsp; <img src="https://user-images.githubusercontent.com/77012237/169140206-0df283b7-83b2-40b3-ba0f-e529afc40988.png" alt="Happy Krish" width="500"/>
+<img src="https://user-images.githubusercontent.com/77012237/169141029-6775801c-481b-444e-9275-383a7f1af0dd.png" alt="Neutral Krish" width="480"/> &nbsp; &nbsp; <img src="https://user-images.githubusercontent.com/77012237/169140206-0df283b7-83b2-40b3-ba0f-e529afc40988.png" alt="Happy Krish" width="480"/><br><br>
+<img src="https://user-images.githubusercontent.com/77012237/169141311-e6fb31f0-4399-4646-98f1-7f10a5bd1f7b.png" alt="Surprised Krish" width="480"/> &nbsp; &nbsp; <img src="https://user-images.githubusercontent.com/77012237/169141458-e5d3dbb7-fcda-40d4-8667-99a91b8ea29c.png" alt="Angry Krish" width="480"/><br>
+*PS : I literally gave my 110% to get those angry expressions... Do appereciate!😆*
+<br><br>
 
 
-
-
+# Checkout this [YouTube link]() for breif explanation, Thankyou ❤
