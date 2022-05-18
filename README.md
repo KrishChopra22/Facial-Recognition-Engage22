@@ -19,7 +19,7 @@ Open the terminal and run the following command *(Make sure you are connected to
 Once all the dependencies are installed, now your system is ready to **run** this application 🥳<br>
 Just open [app.py](https://github.com/KrishChopra22/Facial-Recognition-Engage22/blob/master/Face%20Recognition/app.py) on your IDE(VS Code) & **right-click** there and click on **'Run Python File in Terminal'** *as shown below...*
 
-<img src="https://user-images.githubusercontent.com/77012237/169081229-131c14c7-31a3-431e-8a74-8a3f0a14d7e0.png" alt="right-click" width="450"/> &nbsp; &nbsp; <img src="https://user-images.githubusercontent.com/77012237/169081283-9a9d610f-7647-4412-b41e-f9d27bb094a8.png" alt="Run Python File in Terminal" width="450"/>
+<img src="https://user-images.githubusercontent.com/77012237/169081229-131c14c7-31a3-431e-8a74-8a3f0a14d7e0.png" alt="right-click" width="400"/> &nbsp; &nbsp; <img src="https://user-images.githubusercontent.com/77012237/169081283-9a9d610f-7647-4412-b41e-f9d27bb094a8.png" alt="Run Python File in Terminal" width="400"/>
 
 ## Run it on the browser :
 No need to worry, simply copy the **[link](http://127.0.0.1:5000)** served by your terminal and paste it in the browser.<br>
